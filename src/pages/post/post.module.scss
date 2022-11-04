@@ -1,1 +1,77 @@
-// TODO
+.postContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5.2rem;
+}
+
+.bannerContainer {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+
+  .banner {
+    max-width: 100%;
+  }
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+
+  .headingContainer {
+    margin: 0 auto;
+
+    .heading {
+      font-size: 3.2rem;
+      font-weight: 700;
+      margin-bottom: 1.6rem;
+      text-align: left;
+    }
+
+    .headingInfo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 4.26rem;
+    }
+
+    .headingData {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+      margin-right: 1.6rem;
+
+      color: var(--info);
+
+      .icon {
+        margin-right: 0.53rem;
+      }
+    }
+  }
+}
+
+.mainContentBox {
+  margin: 0 auto;
+  margin-top: 4.26rem;
+  max-width: 47rem;
+
+  .paragraphBox {
+    margin-bottom: 3.2rem;
+
+    .contentHeading {
+      font-size: 2.4rem;
+      margin-bottom: 3.2rem;
+      font-weight: 700;
+      color: var(--heading);
+    }
+
+    .paragraph {
+      text-align: justify;
+      font-size: 1.2rem;
+      line-height: 140%;
+      font-weight: 400;
+      color: var(--body);
+      margin-bottom: 1.7rem;
+    }
+  }
+}
